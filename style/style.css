@@ -1,3 +1,9 @@
-body{
-    background-color: aqua;
+
+/* Google Font for English & Bangla */
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.font-bangla{
+    font-family: "Hind Siliguri", sans-serif;
 }
