@@ -1,4 +1,4 @@
-<h1 align="center">📘 English <img width="25px" src="./assets/logo.png" /> Janala – Vocabulary Learning App</h1>
+<h1 align="center">English <img width="25px" src="./assets/logo.png" /> Janala – Vocabulary Learning App</h1>
 
 # 📌 Project Overview
 
