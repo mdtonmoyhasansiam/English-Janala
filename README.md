@@ -1,116 +1,149 @@
-# ENGLISH <img width="25px" src="./assets/logo.png" /> JANALA
+<h1 align="center">📘 English Janala – Vocabulary Learning App</h1>
+
+# 📌 Project Overview
+
+**English Janala** is a web-based vocabulary learning platform that allows users to explore English words through organized lessons and dynamic data retrieved from APIs.
+
+The application is designed to make vocabulary learning more engaging by presenting word meanings, pronunciation, examples, and related information in an interactive interface.
+
+This project also marks **my first hands-on experience integrating external APIs into a real-world web application.**
 
 ---
 
-## ⚡ API Endpoints
+# 🌐 Live Demo
 
-1. Get ⚡ All Levels
-
-```bash
-https://openapi.programming-hero.com/api/levels/all
-```
-
-1. Get ⚡ Words by Levels <br/>
-   https:// openapi.programming-hero.com/api/level/{id}
-
-```bash
-https://openapi.programming-hero.com/api/level/5
-```
-
-1. Get ⚡ Words Detail <br/>
-   https:// openapi.programming-hero.com/api/word/{id}
-
-```bash
-https://openapi.programming-hero.com/api/word/5
-```
-
-1. Get ⚡ All Words <br/>
-
-```bash
-https://openapi.programming-hero.com/api/words/all
-```
-
-# Work To do
-
-### 1. Show Levels on The UI
-
-- [ ] Show a center-aligned heading as Figma
+👉 https://mdtonmoyhasansiam.github.io/English-Janala/
 
 ---
 
-- [ ] Create dynamically generated buttons from **API-01** for each lesson
-- [ ] Lesson Buttons will be displayed on page load
+
+### 📚 Structured Vocabulary Lessons
+
+Words are categorized into lessons so users can learn vocabulary in a more organized and gradual way.
 
 ---
 
-### 2. Show Word Cards Based on Level
+### 🔎 Instant Word Search
 
-- [ ] Show a default text that will be displayed in the Vocabulary section initially
-- [ ] on Clicking a Specific Lesson Button Load All the words from **API-02**
-- [ ] Display all words for a selected lesson in a card format, showing:
-
-  - [ ] Word
-  - [ ] Word meaning & pronunciation
-  - [ ] Two buttons with relevant icons as per Figma
-
-- [ ] Show **\*No Word Found** message if no words exist for a lesson
+The search functionality allows users to quickly find vocabulary and view related results dynamically.
 
 ---
 
-- [ ] Create functionality to highlight the active lesson button
+### 🧠 Detailed Word Information
+
+Each word includes a detailed modal view that shows:
+
+- Meaning
+
+- Pronunciation
+
+- Example usage
+
+- Synonyms
+
+- Audio support for pronunciation
 
 ---
 
-### 3. Use Different Color on The Active Level Button
+### 🔊 Audio Pronunciation
 
-- [ ] After Successfully Loading words of a level , diffirentiate the button so user can understand which button is active
-
-### 4. Vocabulary Details
-
-- [ ] Create functionality to open a modal when clicking the details icon
-- [ ] Data will be load from **API-03**
-- [ ] modal will displays:
-  - [ ] Word with pronunciation
-  - [ ] Example sentence
-  - [ ] Synonyms
-  - [ ] A "Complete Learning" button to close the modal
-
-### 5. Handling Invalid Data
-
-- [ ] avoid displaying falsy values like `undefined` or `null`
-- [ ] display relevant words if no data is found
-
-### 6. Loading Spinner
-
-- [ ] Create a loading spinner that will be display when vocabulary is loading from API
-
-### 7. Implement Search Functionality
-
-- [ ] Take a input Box.
-- [ ] on Changing value It will Search word and show in the UI.
-- [ ] If anyone Do search reset active button
-
-### 8. Save Word Feature
-
-- [ ] in the UI of Card add a button `Heart icon`
-- [ ] on Clicking it. Store the Word in the Saved Box
-- [ ] Show Saved words in a Different Section.
-
-### 9. Speak your Vocabularies
-
-- [ ] Create functionality for voice pronunciation of vocabulary words
-- [ ] Use below function and implement on clicking sound icon
-
-```js
-function pronounceWord(word) {
-  const utterance = new SpeechSynthesisUtterance(word);
-  utterance.lang = "en-EN"; // English
-  window.speechSynthesis.speak(utterance);
-}
-```
-
-For More >> you can explore this implementation 👉 [https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ](https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ)
+An integrated audio feature enables users to listen to the correct pronunciation of words.
 
 ---
-Bonus : How to create Private Repository for next assignments
-## Test Repo - :  https://classroom.github.com/a/Fgjib-lr
+
+### ❓ FAQ Section
+
+A dedicated FAQ section answers common questions and helps users understand how to use the platform.
+
+---
+
+### 📱 Responsive Design
+
+The interface is fully responsive and works smoothly across desktops, tablets, and mobile devices.
+
+---
+
+# 🛠 Technologies Used
+
+This project was built using the following technologies:
+
+● **HTML5**
+
+● **CSS3**
+
+● **Vanilla JavaScript (ES6)**
+
+● **Tailwind CSS**
+
+● **DaisyUI**
+
+● **REST API Integration**
+
+● **DOM Manipulation**
+
+● **Event-driven UI Logic**
+
+---
+
+# 🧠 Concepts Practiced in This Project
+
+While building this application, I applied several important front-end development concepts, including:
+
+- Fetching data from external APIs
+
+- Working with asynchronous JavaScript (fetch)
+
+- Dynamically rendering content in the DOM
+
+- Handling user interactions through events
+
+- Creating modal-based UI components
+
+- Conditional rendering of UI elements
+
+- Implementing search-based filtering
+
+---
+
+# 🎯 Significance of This Project
+
+This project represents an important milestone in my learning journey as a developer because it is:
+
+- My **first project involving API integration**
+
+- My **first dynamic, data-driven web application**
+
+- A transition from building static interfaces to creating interactive web experiences
+
+Through this project, I gained a better understanding of:
+
+- how front-end applications communicate with APIs
+
+- how dynamic data is displayed in the browser
+
+- how JavaScript handles user-driven interactions
+
+---
+
+# 🚀 Possible Future Improvements
+
+Some potential enhancements for this project include:
+
+- Vocabulary progress tracking for users
+
+- Ability to bookmark or favorite words
+
+- Vocabulary quiz system
+
+- Backend database integration
+
+- Full user authentication system
+
+---
+
+# 👨‍💻 Author
+
+Md. Tonmoy Hasan Siam
+Email: tonmoy.hasan13534@gmail.com       
+Call: +8801560016066 (WhatsApp), +8809638418491      
+Dhaka, Bangladesh
