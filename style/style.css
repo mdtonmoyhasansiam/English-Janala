@@ -8,6 +8,11 @@
     font-family: "Hind Siliguri", sans-serif;
 }
 
+body{
+  height: 100vh;
+  margin:auto;
+}
+
 .active{
     background-color: #422ad5;
     color: white;
